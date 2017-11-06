@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Word Puzzler</title>
+  </head>
+  <body>
+    <h2>Word Puzzle Maker</h2>
+    <h4>Welcome to my word puzzle generator!  This is a page where you can enter a sentence or phrase, and I will go through it and replace all of the vowels with dash marks, that way you can present it to a friend and they can try to solve the problem.  Good luck!</h4>
+    <form id="input">
+      <div class="form-group">
+        <label for="sentence">Please enter a sentence for me to puzzle:</label>
+        <input id="sentence" class="form-control" type="text" placeholder="Numbers, letters, or punctuation marks!">
+      </div>
+      <button type="submit" class="btn btn-danger">Puzzle it!</button>
+    </form>
+    <div class="outputText">
+      <p><em>Your sentence or phrase is:</em> <span id="code"></span></p>
+      <button id="butt" type="submit" class="btn btn-success">Clear page</button>    
+    </div>
+  </body>
+</html>
